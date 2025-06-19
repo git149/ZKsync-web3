@@ -1,9 +1,9 @@
-import Image from "next/image";
-
+import Header from "./compound/Header";
+import AirDropForm from "./compound/AirDropForm";
 export default function Home() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <AirDropForm />
     </div>
   );
 }

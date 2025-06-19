@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { type ReactNode } from "react";
 // import Header from "@/components/Header";
 import { Providers } from "./providers";
+import Header from "./compound/Header";
 
 export const metadata: Metadata = {
   title: "TSender",
@@ -16,9 +17,8 @@ export default function RootLayout(props: { children: ReactNode }) {
         <link rel="icon" href="/T-Sender.svg" sizes="any" />
       </head>
       <body className="bg-zinc-50">
-        <h1>Hello </h1>
         <Providers>
-          {/* <Header /> */}
+          <Header />
           {props.children}
         </Providers>
       </body>
