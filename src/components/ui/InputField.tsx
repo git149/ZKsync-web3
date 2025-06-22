@@ -1,3 +1,9 @@
+/**
+ * Input Field Component
+ * @author git149
+ * @description Reusable input field component for forms
+ */
+
 export interface InputFormProps {
     label: string
     placeholder: string

@@ -1,5 +1,11 @@
 "use client"
 
+/**
+ * RainbowKit Configuration
+ * @author git149
+ * @description Wallet connection configuration for TSender UI
+ */
+
 import { getDefaultConfig } from "@rainbow-me/rainbowkit"
 import { arbitrum, base, mainnet, optimism, anvil, zksync, sepolia } from "wagmi/chains"
 

@@ -1,5 +1,11 @@
 "use client"
 
+/**
+ * Header Component
+ * @author git149
+ * @description Main navigation header for TSender UI
+ */
+
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 import { FaGithub } from "react-icons/fa"
 import Image from "next/image"
@@ -13,7 +19,7 @@ export default function Header() {
                     <h1 className="font-bold text-2xl hidden md:block">TSender</h1>
                 </a>
                 <a
-                    href="https://github.com/git149/ZKsync-web3.git"
+                    href="https://github.com/git149/Ts-Tsender-UI"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="p-1 rounded-lg bg-zinc-900 hover:bg-zinc-800 transition-colors border-2 border-zinc-600 hover:border-zinc-500 cursor-alias hidden md:block"

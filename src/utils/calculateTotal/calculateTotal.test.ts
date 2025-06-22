@@ -1,3 +1,9 @@
+/**
+ * Calculate Total Tests
+ * @author git149
+ * @description Unit tests for calculateTotal utility function
+ */
+
 import { describe, it, expect } from "vitest"
 import { calculateTotal } from "./calculateTotal"
 
